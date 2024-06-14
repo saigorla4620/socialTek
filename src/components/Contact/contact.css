@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@media(max-width:769px) {
+  .home-container .h1 {
+    font-size: 54px !important;
+  }
+ 
+
+}
+
+.home-container {
+  margin: 0px 0 50px !important;
+  padding: 150px 75px !important;
+  height: 100vh;
+}
+
+.banner {
+  background: url(/src/assets/download.webp) no-repeat center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden !important;
+  min-height: 600px;
+}
+
+.banner-right {
+  margin-top: 160px !important;
+  /* text-align: right !important; */
+}
+
+.section_1_contact {
+  margin-right: 100px !important;
+}
+
+.section_1_contact .home-contact {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 10px 10px;
+  display: flex;
+  width: 200px;
+  gap: 20px;
+}
+
+.map {
+  margin-top: 25px;
+}
+
+.cont {
+  margin: 40px !important;
+  display: flex !important;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.address {
+  width: 500px;
+}
+
+.cont .address i {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-right: 10px;
+
+}
+
+.cont .address p {
+  line-height: 25px;
+
+}
+
+.form-contact {
+  width: auto;
+}
+
+.form-contact #btn {
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+  padding: 10px;
+  border-radius: 50px;
+}
+
+@media (max-width:475px) {
+  .form-contact .text-field {
+    width: auto;
+  }
+
+}
+
+form {
+  margin: 35px;
+}
+
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border: 1px solid #777;
+  outline: none;
+  border-radius: 14px;
+}
+.newsletter{
+  width:auto;
+}
+.newsletter .input{
+  width: auto;
+  padding: 0px 25px;
+}
+.newsletter .btn{
+  padding: 0px 0px;
+}
+
+.textarea-field {
+  height: 150px;
+  width: 400px;
+  padding: 10px;
+}
+
+.btn {
+  border-radius: 20px;
+  color: #f0dede;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+  border: none;
+
+}
+
+
+@media (max-width:477px) {
+  .input-field,.textarea-field,.btn {
+    width: auto;
+  }
+
+}
+
+@media (max-width:588px) {
+  .test_sec_1 {
+    background: rgb(141, 53, 224) !important;
+    height: 600px !important;
+  }
+
+ 
+ 
+
+}

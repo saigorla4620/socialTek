@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  background: url(/src/assets/download.webp) no-repeat center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden !important;
+  min-height: 600px;
+}
+
+.banner-right {
+  margin-top: 160px !important;
+  text-align: right ;
+}
+
+
+.abus,
+h1,
+h4 {
+  font-family: "Playfair Display",serif;
+  line-height: rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 900;
+
+}
+
+a {
+  text-decoration: none !important;
+  outline: 0;
+  color: #222222;
+}
+
+.arrow {
+  color: white;
+  padding: .25rem;
+}
+
+.banner-right .box {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 10px 18px;
+  display: inline-block;
+}
+
+.anchor:hover {
+  color: #222222 !important;
+
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl,
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
+.imgsec {
+  height: 500px !important;
+  width: auto !important;
+  max-width: 100% !important;
+}
+
+.card {
+  border: none !important;
+  margin-top: 150px;
+  gap: '150px';
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.78);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.card-img {
+  width: auto;
+  height: auto;
+}
+
+.imga img {
+  animation: fadeIn 4s ease-in-out;
+}
+
+.textc {
+  margin-top: 150px;
+}
+
+.cardc:hover {
+  transform: translateY(-5px);
+  box-shadow: 10px 24px 24px rgba(25, 24, 24, 0.2);
+  /* border: 1px solid red; */
+}
+
+.card-group {
+  border: none !important;
+  cursor: pointer;
+  margin-top: 100px;
+  cursor: pointer;
+}
+
+.trainer-area {
+  background: url(/src/assets/download2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  /* column-gap: 200px; */
+  padding: 40px 30px 30px;
+}
+
+.trainer {
+  height: 500px !important;
+  display: flex !important;
+}
+
+@media (max-width: 768px) {
+  .card-group {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .title {
+    font-size: 36px;
+  }
+}
+
+@media(max-width:576px) {
+  .t-content {
+    width: 600px !important;
+    margin-left: 20px !important;
+  }
+}
+
+@media(max-width:1200px) {
+  .t-content {
+    margin-top: -80px !important;
+  }
+}
+
+@media(max-width:992px) {
+  .t-content {
+    margin: 10px !important;
+    padding: 0 !important;
+  }
+
+  .th,
+  .tp {
+    margin: 1px !important;
+  }
+
+  .t-img {
+    width: 100% !important;
+    height: 270px !important;
+  }
+}
+
+@media(max-width:992px) {
+  .h1 {
+    font-size: 40px !important;
+  }
+
+  .trainer-area {
+    background: #828bb2 !important;
+    padding: 60px 0px;
+  }
+
+  .t-content {
+    width: 100% !important;
+  }
+
+}
+
+.cards:hover {
+  /* transform: translateY(-5px); */
+  background-color: rgb(80, 230, 180);
+  color: white;
+}
+
+.cards {
+  transition: all 0.3s ease;
+}
+
+.btn {
+  padding: 12px 24px;
+  /* background-color: white !important; */
+  width: 200px;
+  color: whitesmoke !important;
+}
+
+.btn:hover {
+  color: black !important;
+  background-color: goldenrod !important;
+
+  border: 3px solid rgb(225, 89, 10) !important;
+}
+
+.ftco-intro {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  color: rgba(255, 255, 255, 0.8);
+  background: url('https://socialtek.in/wp-content/uploads/2020/04/funfact-bg-3.jpg');
+}
+
+@media(max-width:584px) {
+  .banner-right {
+    font-size: 40px !important;
+    text-align: center !important;
+  }
+  .banner {
+    background: rgb(141, 53, 224) !important;
+    padding: 60px 0px;
+  }
+}
+
+@media(max-width:1210px) {
+  .bannera {
+    margin-top: -70px !important;
+  }
+
+}
+
+@media(max-width:992px) {
+  .nav-item {
+    border-bottom: 1px solid #fff !important;
+    margin: 10px 0;
+  }
+  
+}
+
+.navbar-toggler-icon {
+  color: #fff !important;
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+}
+
+@media(max-width:459px) {
+  .t-content {
+    margin-top: -10px !important;
+  }
+
+}
+
+
+@media (min-width: 458px) {
+  .card-group {
+    flex-direction: row;
+  }
+  .cardc {
+    width: calc(33.333% - 40px);
+  }
+  .premove {
+    display: block !important;
+    padding: auto !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .premove {
+    display: none;
+    padding: auto;
+  }
+}
+
+
+@media (max-width: 760px) {
+  .cardc {
+    margin: 30px 30px !important;
+    /* padding: 0 auto !important; */
+    width: auto !important;
+  }
+
+  .premove {
+    display: block;
+    padding: auto;
+  }
+
+}
