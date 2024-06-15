@@ -11,8 +11,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/socialtek" element={<Home />} />
-          <Route path="/about" element={<Aboutus />} />
+          <Route path="/" element={<Home/>} />
+          <Route path="/about" element={<Aboutus/>} />
           <Route path="/services" element={<OurServices />} />
           <Route path="/contact" element={<Test />} />
         </Routes>
